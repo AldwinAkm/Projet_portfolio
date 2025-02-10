@@ -190,10 +190,10 @@ h2 {
     color: #007ced;
     
 }
-footer{
-    display: flex;
-    justify-content: center;
-}
+    footer{
+        display: flex;
+        justify-content: center;
+    }
 
 /* Responsive */
 @media (max-width: 768px) {
