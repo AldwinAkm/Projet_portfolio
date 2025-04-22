@@ -8,32 +8,101 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <div id="logo">
                 <img class="logo-akm" src="assets/img/akm-logo.webp" alt="Logo AKM">
             </div>            
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="resume.html">Resume</a></li>                
+                <li><a href="portfolio.html">Portfolio</a></li>              
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main-content">
         <section class="portfolio-section">
-            <div class="container">
-               
-                        <div class="project1">
-                            <img src="assets/img/bd.jpg" alt="Projet 1">
-                            <h3>Création de base de données</h3>
-                            <p>Il s'agit de la création d'une base données <br>sous access pour la gestion de stock d'une entreprise</p>
+            <div class="portfolio-grid">
+                        <div class="portfolio-item" data-modal="restaurant-modal">
+                            <img src="assets/img/Tchat.png" alt="Projet 1">
+                            <div class="portfolio-item-info">
+                                <h2>Tchatzer</h2>
+                                <p>A complete social media platform built with Next.js, Prisma, Neon, and Clerk. Written in TypeScript for a modern, fast, secure, and responsive experience. </p>
+                                <div class="buttons-container">
+                                    <a href="https://github.com/AldwinAkm/Chat_project" class="button">GitHub</a>
+                                    <a href="https://tchatzer.vercel.app/" class="button">Try me</a>
+                                  </div>
+                            </div>
+                           
+                        </div>
+                      
+
+                        <div class="portfolio-item">
+                            <img src="assets/img/Resto.png" alt="Projet 1">
+                            <div class="portfolio-item-info">
+                                <h2>Restaurant Yukihira</h2>
+                                <p>"It is a restaurant website that highlights the establishment’s culinary offerings, ambiance, and reservation options. </p>
+                                <div class="buttons-container">
+                                    <a href="https://github.com/AldwinAkm/projet_resto" class="button">GitHub</a>
+                                    <a href="https://projet-resto-nine.vercel.app/index.html" class="button">Try me</a>
+                                  </div>
+                            </div>
                         </div>
 
-                        <div class="project2">
-                            <img class="projet22" src="assets/img/projet2.webp" alt="Projet 2">
-                            <h3>Développement logiciel</h3>
-                            <p>Rédaction de cahier de charge...</p>
+                        <div class="portfolio-item">
+                            <img src="assets/img/bd.jpg" alt="Projet 1">
+                            <div class="portfolio-item-info">
+                                <h2>Création de base de données</h2>
+                                <p>Il s'agit de la création d'une base données sous access pour la gestion de stock d'une entreprise</p>
+                                <div class="buttons-container">
+                                    <a href="#" class="button">GitHub</a>
+                                    <a href="#" class="button">Try me</a>
+                                  </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio.png" alt="Projet 1">
+                            <div class="portfolio-item-info">
+                                <h2>Portfolio</h2>
+                                <p>A minimalist personal website designed to showcase my projects, identity, and skills with responsive design and clean UI. </p>
+                                <div class="buttons-container">
+                                    <a href="https://github.com/AldwinAkm/Projet_portfolio" class="button">GitHub</a>
+                                    <a href="#" class="button">Try me</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="assets/img/Fast.png" alt="Projet 1">
+                            <div class="portfolio-item-info">
+                                <h2>FastApi</h2>
+                                <p>It's an application using FastAPI, React, and MongoDB which make to-do lists</p>
+                                <div class="buttons-container">
+                                    <a href="https://github.com/AldwinAkm/Api_creation" class="button">GitHub</a>
+                                    <a href="https://api-creation-bysc.vercel.app/" class="button">Try me</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="assets/img/Réserv.png" alt="Projet 1">
+                            <div class="portfolio-item-info">
+                                <h2>Système de réservation</h2>
+                                <p>An online appointment scheduling system built with PHP and MariaDB. </p>
+                                <div class="buttons-container">
+                                    <a href="https://github.com/AldwinAkm/Systeme_de_reservation" class="button">GitHub</a>
+                                    <a href="#" class="button">Try me</a>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <img src="assets/img/Synkrone.png" alt="Projet 1">
+                            <div class="portfolio-item-info">
+                                <h2>Synkrone</h2>
+                                <p>A project management app made with symphony, docker, vue.js, mysql, github actions and deployed with portainer </p>
+                                <div class="buttons-container">
+                                    <a href="https://github.com/AldwinAkm/Gestion_projet_app" class="button">GitHub</a>
+                                    <a href="synkronapp.fr" class="button">Try me</a>
+                                  </div>
+                            </div>
                         </div>
             </div>
         </section>
